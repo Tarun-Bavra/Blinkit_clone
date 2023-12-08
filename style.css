@@ -27,7 +27,7 @@
   width: 95%;
   height: 45px;
 }
-.hero-section>img{
+.hero-section > img {
   width: 85vw;
 }
 #categories-section {
@@ -36,14 +36,12 @@
   margin-top: 20px;
 }
 .cards-Section,
-.category-section {
+.category-section,
+footer {
   width: 80vw;
   margin: auto;
   margin-top: 20px;
 }
-/* .category-section >h2{
-  margin-bottom: 0px;
-} */
 .scrollable-div {
   white-space: nowrap;
   overflow: hidden;
@@ -78,5 +76,126 @@
   margin: 0;
   padding: 0;
 }
+#footer-r1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+#footer-table1 {
+  flex: 2;
+}
+#footer-table2 {
+  flex: 3;
+}
+table {
+  width: 100%;
+}
+td {
+  color: #6a6a6a;
+  font-size: 14px;
+  line-height: 2;
+}
+#footer-r2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+#footer-r2 > p {
+  width: 40%;
+  color: #6a6a6a;
+  font-size: 15px;
+  text-align: justify;
+  margin: 0;
+}
+#social-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#downloads {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#downloads > p {
+  margin: 0;
+  padding: 0;
+  color: #6a6a6a;
+  font-weight: 900;
+  padding: 20px;
+}
+#downloads > img {
+  margin: 10px;
+}
+.social-icons {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 50%;
+  margin-inline: 10px;
+  font-size: 25px;
+}
+#footer-r3 {
+  color: #6a6a6a;
+  font-size: 15px;
+  text-align: justify;
+}
 
-/* blinkit clone at 02:05:00 done successfully */
+/* Media Queries */
+@media screen and (max-width:768px){
+nav{
+  flex-direction: column;
+  padding: 10px;
+}
+#nav_delivery{
+  text-align: center;
+}
+#vertical_line{
+  display: none;
+}
+#search_div{
+  width: 90vw;
+}
+#search_div>input{
+width: auto;
+}
+#hero-section{
+  display: none !important;
+}
+.cards-Section{
+margin-top: 30px !important;
+}
+}
+#footer-r1{
+  flex-direction: column;
+  align-items: center;
+}
+#footer-table1,#footer-table2{
+  width: 100%;
+}
+td{
+  /* text-align: center; */
+}
+#footer-r2{
+  flex-direction: column;
+  align-items: center;
+}
+#footer-r2>p{
+  width: 100%;
+}
+#social-links{
+  margin-bottom: 20px;
+}
+#downloads>p{
+  text-align: center;
+}
+
+
+/* blinkit clone at 02:41:00 done successfully */
+/* revision to be done Git & Github*/
