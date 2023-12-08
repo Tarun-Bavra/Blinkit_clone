@@ -179,9 +179,9 @@ margin-top: 30px !important;
 #footer-table1,#footer-table2{
   width: 100%;
 }
-td{
-  /* text-align: center; */
-}
+/* td{
+  text-align: center;
+} */
 #footer-r2{
   flex-direction: column;
   align-items: center;
@@ -197,5 +197,5 @@ td{
 }
 
 
-/* blinkit clone at 02:41:00 done successfully */
+/* blinkit clone at 03:00:00 done successfully */
 /* revision to be done Git & Github*/
